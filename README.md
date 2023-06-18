@@ -18,6 +18,6 @@ After making the rest input channel available, you can POST messages to `http://
 ```bash
 {
   "sender": "test_user",  // sender ID of the user sending the message
-  "message": "Hi there!"
+  "message": "سلام" // message
 }
 ```
