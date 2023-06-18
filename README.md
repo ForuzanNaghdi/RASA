@@ -7,6 +7,7 @@ Then, to run custom actions, run this command:
 ```bash
 rasa run actions
 ```
+# Enabling the HTTP API
 To run actions on a web widget:
 * change `action endpoint` in `endpoints.yml` file to specify the URL where the custom actions server is running.
 * Modify the `credentials.yml` file to include the socketio channel with the `webhook_url` parameter set to the URL where your widget is running.
