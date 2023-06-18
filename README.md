@@ -14,6 +14,7 @@ then run this command:
 ```bash
 rasa run -m models --enable-api --cors "*"
 ```
+# API
 After making the rest input channel available, you can POST messages to `http://<host>:<port>/webhooks/rest/webhook`, with the following format:
 ```bash
 {
